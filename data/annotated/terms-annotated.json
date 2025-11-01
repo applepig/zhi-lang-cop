@@ -1,0 +1,2602 @@
+[
+  {
+    "rule_id": "00001",
+    "term": "視頻",
+    "level": "hazard",
+    "message": "在台灣，「視頻」通常指 video frequency（視訊頻率），是技術術語。若要表達影片內容，應使用「影片」或「視訊」。中國大陸則用「视频」泛指所有影片內容，容易造成嚴重誤解。這是完全不同意義的詞彙，必須避免使用。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "video clip / video stream"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "影片、視訊"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "视频"
+      }
+    ],
+    "taiwan_alternatives": [
+      "影片",
+      "視訊"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10000",
+    "term": "優化",
+    "level": "error",
+    "message": "「優化」為中國大陸用語，台灣慣用「最佳化」來表達 optimization。optimization 是技術領域的重要概念，台灣從學術到業界都使用「最佳化」。「優化」正在侵蝕台灣的語言習慣，應該完全避免，統一使用「最佳化」。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "optimization"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "最佳化"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "优化"
+      }
+    ],
+    "taiwan_alternatives": [
+      "最佳化"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10001",
+    "term": "軟件",
+    "level": "error",
+    "message": "中國大陸用語，台灣標準說法是「軟體」。software 在台灣一直譯為「軟體」，這是資訊產業的基礎術語。「軟件」是大陸簡化後的說法，在台灣完全不使用。所有台灣的技術文件、產品說明都使用「軟體」，這是最基本且明顯的用語差異。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "software"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "軟體"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "软件"
+      }
+    ],
+    "taiwan_alternatives": [
+      "軟體",
+      "software"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10002",
+    "term": "硬件",
+    "level": "error",
+    "message": "中國大陸用語，台灣標準說法是「硬體」。hardware 在台灣譯為「硬體」，與「軟體」相對應。「硬件」是大陸的說法，在台灣的技術領域完全不使用。從電腦零組件到系統架構，台灣都使用「硬體」一詞，這是基礎且高頻的術語差異。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "hardware"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "硬體"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "硬件"
+      }
+    ],
+    "taiwan_alternatives": [
+      "硬體",
+      "hardware"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10003",
+    "term": "信息",
+    "level": "error",
+    "message": "中國大陸用語，台灣標準說法是「資訊」。information 在台灣譯為「資訊」，如「資訊科技」、「資訊安全」。「信息」在台灣較少使用，這是學術和產業界的標準用語差異。台灣的資訊產業、教育體系都使用「資訊」，使用「信息」會立即被識別為大陸用語。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "information"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "資訊"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "信息"
+      }
+    ],
+    "taiwan_alternatives": [
+      "資訊",
+      "information"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10004",
+    "term": "數據庫",
+    "level": "error",
+    "message": "中國大陸用語，台灣標準說法是「資料庫」。database 在台灣一直譯為「資料庫」，這是資訊系統的核心概念。「數據庫」使用「數據」這個大陸用詞，在台灣應該使用「資料庫」。從 MySQL 到 Oracle，台灣的技術文件都使用「資料庫」。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "database"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "資料庫"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "数据库"
+      }
+    ],
+    "taiwan_alternatives": [
+      "資料庫",
+      "database"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10005",
+    "term": "操作系統",
+    "level": "error",
+    "message": "中國大陸用語，台灣標準說法是「作業系統」。operating system 在台灣譯為「作業系統」，如「Windows 作業系統」。「操作系統」是大陸的譯法，台灣從教育到產業都使用「作業系統」。這是計算機科學的基礎概念，用語應該統一使用台灣標準。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "operating system"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "作業系統"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "操作系统"
+      }
+    ],
+    "taiwan_alternatives": [
+      "作業系統",
+      "OS"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10006",
+    "term": "內存",
+    "level": "error",
+    "message": "中國大陸用語，台灣標準說法是「記憶體」。memory 在台灣譯為「記憶體」，包括 RAM、ROM 等各類記憶體。「內存」是大陸的簡化說法，台灣從硬體規格到系統設定都使用「記憶體」。這是電腦硬體的基本術語，應使用台灣標準「記憶體」。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "memory / RAM"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "記憶體"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "内存"
+      }
+    ],
+    "taiwan_alternatives": [
+      "記憶體",
+      "RAM"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10007",
+    "term": "文件夾",
+    "level": "error",
+    "message": "中國大陸用語，台灣標準說法是「資料夾」。folder 在台灣譯為「資料夾」，這是檔案系統中組織檔案的基本單位。「文件夾」是大陸的說法，台灣的作業系統介面（Windows、macOS）都使用「資料夾」。這是日常使用頻率極高的術語，應避免使用「文件夾」。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "folder"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "資料夾"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "文件夾"
+      }
+    ],
+    "taiwan_alternatives": [
+      "資料夾",
+      "目錄"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10008",
+    "term": "調用",
+    "level": "error",
+    "message": "中國大陸用語，台灣標準說法是「呼叫」。function call 在台灣譯為「函式呼叫」，method call 譯為「方法呼叫」。「調用」是大陸的程式設計術語，台灣從教育到業界都使用「呼叫」。這是程式設計的基礎概念，應統一使用「呼叫」。",
+    "category": "programming",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "call / invoke"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "呼叫"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "调用"
+      }
+    ],
+    "taiwan_alternatives": [
+      "呼叫",
+      "調用"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10009",
+    "term": "字符串",
+    "level": "error",
+    "message": "中國大陸用語，台灣標準說法是「字串」。string 在台灣譯為「字串」，這是程式設計中的基本資料型別。「字符串」使用「字符」這個大陸用詞，台灣應該使用「字串」。從程式語言教學到技術文件，台灣都使用「字串」。",
+    "category": "programming",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "string"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "字串"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "字符串"
+      }
+    ],
+    "taiwan_alternatives": [
+      "字串",
+      "string"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10010",
+    "term": "默認",
+    "level": "error",
+    "message": "中國大陸用語，台灣標準說法是「預設」。default 在台灣譯為「預設」，如「預設值」、「預設設定」。「默認」在台灣較為生硬，且「默」字在此情境的使用不符合台灣習慣。所有台灣的軟體介面都使用「預設」，這是非常明顯的用語差異。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "default"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "預設"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "默认"
+      }
+    ],
+    "taiwan_alternatives": [
+      "預設",
+      "default"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10011",
+    "term": "變量",
+    "level": "error",
+    "message": "「變量」是典型的中國大陸用語，台灣程式設計界一律使用「變數」。這是基礎且高頻使用的術語，使用「變量」會立即顯露出大陸用語習慣，應完全避免。變數（variable）是程式設計的核心概念，台灣教育和產業界都使用「變數」。",
+    "category": "programming",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "variable"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "變數"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "變量"
+      }
+    ],
+    "taiwan_alternatives": [
+      "變數"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10012",
+    "term": "數組",
+    "level": "error",
+    "message": "「數組」是中國大陸的程式設計術語，台灣完全使用「陣列」來對應 array。這是程式設計中最基本的資料結構之一，台灣從教育到業界都統一使用「陣列」，使用「數組」會造成明顯的用語違和感。",
+    "category": "programming",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "array"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "陣列"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "數組"
+      }
+    ],
+    "taiwan_alternatives": [
+      "陣列"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10013",
+    "term": "對象",
+    "level": "error",
+    "message": "在物件導向程式設計中，台灣使用「物件」而非「對象」。「對象」在台灣有其他含義（如：交往對象），用於程式設計會造成混淆。物件（object）是 OOP 的核心概念，台灣開發者一律使用「物件」。",
+    "category": "programming",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "object"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "物件"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "對象"
+      }
+    ],
+    "taiwan_alternatives": [
+      "物件"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10014",
+    "term": "接口",
+    "level": "error",
+    "message": "「接口」是中國大陸用語，台灣程式設計界使用「介面」。無論是硬體接口還是軟體 interface，台灣都統一使用「介面」。這是高頻使用的術語，使用「接口」會明顯顯示出大陸用語特徵，應該避免。",
+    "category": "programming",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "interface"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "介面"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "接口"
+      }
+    ],
+    "taiwan_alternatives": [
+      "介面"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10015",
+    "term": "調試",
+    "level": "error",
+    "message": "「調試」是典型的中國大陸用語，台灣程式設計界使用「除錯」或「偵錯」。Debug 這個動作在台灣有明確的對應詞彙，「調試」完全不符合台灣用語習慣，應該避免使用。「除錯」是最普遍的說法。",
+    "category": "programming",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "debug"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "除錯"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "調試"
+      }
+    ],
+    "taiwan_alternatives": [
+      "除錯",
+      "偵錯"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10016",
+    "term": "模塊",
+    "level": "error",
+    "message": "「模塊」是中國大陸用語，台灣程式設計界使用「模組」來對應 module。這是軟體架構中的重要概念，台灣從教育到業界都統一使用「模組」。使用「模塊」會明顯顯示出大陸用語習慣，應該避免。",
+    "category": "programming",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "module"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "模組"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "模塊"
+      }
+    ],
+    "taiwan_alternatives": [
+      "模組"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10017",
+    "term": "硬盤",
+    "level": "error",
+    "message": "中國大陸用語，台灣標準說法是「硬碟」。硬盤是 hard disk 的大陸翻譯，台灣從早期就使用「硬碟」這個譯法，已深植於資訊產業與日常用語中。使用「硬盤」會立即被識別為大陸用語，在台灣的技術文件、產品說明中應避免使用。",
+    "category": "hardware",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "hard disk"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "硬碟"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "硬盤"
+      }
+    ],
+    "taiwan_alternatives": [
+      "硬碟",
+      "硬碟機"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10018",
+    "term": "主板",
+    "level": "error",
+    "message": "中國大陸用語，台灣標準說法是「主機板」。motherboard 在台灣一直譯為「主機板」，這是台灣資訊產業的標準術語，各大主機板廠商（如華碩、技嘉、微星）都使用此譯名。「主板」是大陸的簡化譯法，在台灣的技術文件中應避免使用，以維持專業性與在地化。",
+    "category": "hardware",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "motherboard"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "主機板"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "主板"
+      }
+    ],
+    "taiwan_alternatives": [
+      "主機板"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10019",
+    "term": "內存條",
+    "level": "error",
+    "message": "中國大陸用語，台灣標準說法是「記憶體」或「記憶體模組」。memory 在台灣譯為「記憶體」，而「內存」是大陸的譯法。「條」也是大陸的量詞用法，台灣會說「一條記憶體」較少見，通常直接說「記憶體」或「記憶體模組」。在台灣的硬體規格與產品說明中應使用「記憶體」。",
+    "category": "hardware",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "memory module / RAM"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "記憶體"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "內存條"
+      }
+    ],
+    "taiwan_alternatives": [
+      "記憶體",
+      "記憶體模組",
+      "RAM"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10020",
+    "term": "芯片",
+    "level": "error",
+    "message": "中國大陸用語，台灣標準說法是「晶片」。chip 在台灣一直譯為「晶片」，這與台灣的半導體產業用語一致（如台積電、聯發科等都使用「晶片」）。「芯片」的「芯」字在台灣較少用於此意，使用「芯片」會立即被識別為大陸用語，在台灣的技術文件中應使用「晶片」。",
+    "category": "hardware",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "chip"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "晶片"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "芯片"
+      }
+    ],
+    "taiwan_alternatives": [
+      "晶片",
+      "IC"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10021",
+    "term": "接口",
+    "level": "error",
+    "message": "中國大陸用語，台灣標準說法是「介面」。interface 在台灣譯為「介面」，涵蓋硬體介面（如 USB 介面）與軟體介面（如使用者介面）。「接口」是大陸的譯法，在台灣的技術文件、API 文件、硬體規格中都應使用「介面」，這是台灣資訊產業的標準術語。",
+    "category": "hardware",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "interface"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "介面"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "接口"
+      }
+    ],
+    "taiwan_alternatives": [
+      "介面",
+      "接頭"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10022",
+    "term": "端口",
+    "level": "error",
+    "message": "中國大陸用語，台灣標準說法是「埠」或「連接埠」。port 在台灣譯為「埠」（如網路埠 port 80）或「連接埠」，在硬體方面也可能指「插槽」或「接頭」。「端口」是大陸的譯法，在台灣的網路文件、系統設定、防火牆規則中都應使用「埠」或「連接埠」。",
+    "category": "hardware",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "port"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "埠"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "端口"
+      }
+    ],
+    "taiwan_alternatives": [
+      "埠",
+      "連接埠",
+      "port"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10023",
+    "term": "固件",
+    "level": "error",
+    "message": "中國大陸用語，台灣標準說法是「韌體」。firmware 在台灣譯為「韌體」，這是介於硬體與軟體之間的程式，名稱取其「韌性」之意。「固件」是大陸的譯法，台灣的硬體廠商、技術文件、更新說明都使用「韌體」。使用「固件」會被識別為大陸用語，應改用「韌體」。",
+    "category": "hardware",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "firmware"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "韌體"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "固件"
+      }
+    ],
+    "taiwan_alternatives": [
+      "韌體",
+      "firmware"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10024",
+    "term": "分辨率",
+    "level": "error",
+    "message": "中國大陸用語，台灣標準說法是「解析度」。resolution 在台灣一直譯為「解析度」，這是顯示器、相機、影像處理的標準術語。「分辨率」是大陸的譯法，在台灣的產品規格、技術文件、影像設定中都應使用「解析度」。這是台灣消費電子產業的標準用語，使用「分辨率」會顯得不在地化。",
+    "category": "hardware",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "resolution"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "解析度"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "分辨率"
+      }
+    ],
+    "taiwan_alternatives": [
+      "解析度"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10025",
+    "term": "帶寬",
+    "level": "error",
+    "message": "中國大陸用語，台灣標準說法是「頻寬」。bandwidth 在台灣譯為「頻寬」，這是網路、通訊、訊號處理的標準術語。「帶寬」是大陸的譯法，台灣的網路服務商、技術文件、系統規格都使用「頻寬」。使用「帶寬」會立即被識別為大陸用語，在台灣應統一使用「頻寬」。",
+    "category": "hardware",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "bandwidth"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "頻寬"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "帶寬"
+      }
+    ],
+    "taiwan_alternatives": [
+      "頻寬",
+      "bandwidth"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10026",
+    "term": "總線",
+    "level": "error",
+    "message": "中國大陸用語，台灣標準說法是「匯流排」。bus 在台灣譯為「匯流排」，這是電腦架構中的標準術語，指連接各元件的資料傳輸通道。「總線」是大陸的譯法，台灣的計算機組織、硬體架構課程與技術文件都使用「匯流排」。使用「總線」會被識別為大陸用語，應改用「匯流排」。",
+    "category": "hardware",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "bus"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "匯流排"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "總線"
+      }
+    ],
+    "taiwan_alternatives": [
+      "匯流排",
+      "bus"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10027",
+    "term": "寄存器",
+    "level": "error",
+    "message": "中國大陸用語，台灣標準說法是「暫存器」。register 在台灣譯為「暫存器」，這是 CPU 內部用來暫時存放資料的高速記憶單元。「寄存器」是大陸的譯法，台灣的計算機組織、組合語言、微處理器課程與技術文件都使用「暫存器」。使用「寄存器」會被識別為大陸用語，應改用「暫存器」。",
+    "category": "hardware",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "register"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "暫存器"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "寄存器"
+      }
+    ],
+    "taiwan_alternatives": [
+      "暫存器",
+      "register"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10028",
+    "term": "光驅",
+    "level": "error",
+    "message": "中國大陸用語，台灣標準說法是「光碟機」。optical drive 在台灣譯為「光碟機」，包括 CD-ROM、DVD-ROM、藍光光碟機等。「光驅」是大陸的簡化說法，台灣從未使用「驅」字來指稱「drive」，而是用「機」。在台灣的硬體規格、產品說明中應使用「光碟機」。",
+    "category": "hardware",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "optical drive"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "光碟機"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "光驅"
+      }
+    ],
+    "taiwan_alternatives": [
+      "光碟機",
+      "DVD 光碟機"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10029",
+    "term": "窗口",
+    "level": "error",
+    "message": "典型的中國大陸用語。在台灣，電腦軟體介面使用「視窗」（對應 window），服務櫃台則稱為「櫃台」或「服務台」。「窗口」在台灣較少使用，容易讓人感覺不自然。這是技術文件中常見的支語，應該改為台灣慣用的「視窗」。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "window"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "視窗"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "窗口"
+      }
+    ],
+    "taiwan_alternatives": [
+      "視窗",
+      "櫃台"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10030",
+    "term": "網絡",
+    "level": "error",
+    "message": "中國大陸用語，正在侵蝕台灣用語習慣。台灣標準用法是「網路」（對應 network）。「網絡」在台灣幾乎不使用，這是簡繁體中文最明顯的差異之一。在技術文件、新聞報導、日常對話中，台灣一律使用「網路」。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "network"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "網路"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "网络"
+      }
+    ],
+    "taiwan_alternatives": [
+      "網路"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10031",
+    "term": "在線",
+    "level": "error",
+    "message": "中國大陸用語。台灣標準用法是「線上」（對應 online）。「在線」在台灣較為生硬，不符合台灣的語言習慣。無論是「線上會議」、「線上購物」、「線上客服」，台灣都使用「線上」而非「在線」。這是技術和商業文件中常見的支語差異。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "online"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "線上"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "在线"
+      }
+    ],
+    "taiwan_alternatives": [
+      "線上"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10032",
+    "term": "粘貼",
+    "level": "error",
+    "message": "中國大陸用語，台灣完全不使用。台灣標準用法是「貼上」（對應 paste）。「粘貼」在台灣會讓人感覺非常不自然，這是軟體介面中最常見的支語之一。Windows、Office 等軟體的台灣版本都使用「貼上」，絕不使用「粘貼」。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "paste"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "貼上"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "粘贴"
+      }
+    ],
+    "taiwan_alternatives": [
+      "貼上"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10033",
+    "term": "剪切",
+    "level": "error",
+    "message": "中國大陸用語，台灣不使用。台灣標準用法是「剪下」（對應 cut）。「剪切」在台灣較為生硬且不自然，這是軟體介面中常見的支語。在編輯功能中，台灣使用「剪下、複製、貼上」的組合，而非「剪切、复制、粘贴」。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "cut"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "剪下"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "剪切"
+      }
+    ],
+    "taiwan_alternatives": [
+      "剪下"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10034",
+    "term": "撤銷",
+    "level": "error",
+    "message": "中國大陸用語。台灣標準用法是「復原」或「還原」（對應 undo）。「撤銷」在台灣的軟體中較少使用，雖然能理解，但不符合台灣的語言習慣。Windows 和 Office 的台灣版本使用「復原」，Mac 則常用「還原」，這是編輯功能中的重要差異。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "undo"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "復原/還原"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "撤销"
+      }
+    ],
+    "taiwan_alternatives": [
+      "復原",
+      "還原",
+      "取消"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10035",
+    "term": "保存",
+    "level": "error",
+    "message": "中國大陸用語。台灣標準用法是「儲存」（對應 save）。「保存」在台灣有「保管、保留」的意思，用於電腦操作時會感覺不自然。所有台灣版本的軟體都使用「儲存」，如「儲存檔案」、「另存新檔」等，這是最常見的支語差異之一。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "save"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "儲存"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "保存"
+      }
+    ],
+    "taiwan_alternatives": [
+      "儲存",
+      "存檔"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10036",
+    "term": "加載",
+    "level": "error",
+    "message": "中國大陸用語。台灣標準用法是「載入」（對應 load）。「加載」在台灣幾乎不使用，這是程式和遊戲介面中常見的支語。台灣說「載入頁面」、「載入中」、「載入資料」，而不使用「加載」。這個詞彙的差異非常明顯。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "load"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "載入"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "加载"
+      }
+    ],
+    "taiwan_alternatives": [
+      "載入",
+      "讀取"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10037",
+    "term": "登錄",
+    "level": "error",
+    "message": "中國大陸用語。台灣標準用法是「登入」（對應 login/sign in）。「登錄」在台灣有「登記、記錄」的意思，用於系統登入時不正確。所有台灣的網站和應用程式都使用「登入」，如「會員登入」、「登入系統」，這是非常明顯的用語差異。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "login"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "登入"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "登录"
+      }
+    ],
+    "taiwan_alternatives": [
+      "登入"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10038",
+    "term": "設置",
+    "level": "error",
+    "message": "中國大陸用語。台灣標準用法是「設定」（對應 settings/configuration）。「設置」在台灣有「設立、放置」的意思，用於軟體功能時不正確。所有台灣版本的軟體和作業系統都使用「設定」，如「系統設定」、「偏好設定」，這是極為常見的支語。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "settings"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "設定"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "设置"
+      }
+    ],
+    "taiwan_alternatives": [
+      "設定",
+      "配置"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10039",
+    "term": "鼠標",
+    "level": "error",
+    "message": "「鼠標」是大陸用語，台灣從早期電腦時代就使用「滑鼠」一詞。「滑鼠」是對 mouse 的音譯加意譯，形象生動且已深入民心，而「鼠標」則是純意譯。使用「鼠標」會立刻被識別為大陸用語，正在侵蝕台灣的語言習慣。",
+    "category": "hardware",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "mouse"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "滑鼠"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "鼠標"
+      }
+    ],
+    "taiwan_alternatives": [
+      "滑鼠"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10040",
+    "term": "屏幕",
+    "level": "error",
+    "message": "「屏幕」是大陸用語，台灣標準用法是「螢幕」。「螢幕」源自「螢光幕」的簡稱，指的是顯示器的發光顯示面板。「屏幕」在台灣不常使用，使用此詞會被認為是大陸用語的影響。在技術文件和日常對話中，台灣人都說「螢幕」。",
+    "category": "hardware",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "screen / monitor"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "螢幕"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "屏幕"
+      }
+    ],
+    "taiwan_alternatives": [
+      "螢幕",
+      "顯示器"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10041",
+    "term": "打印",
+    "level": "error",
+    "message": "「打印」是大陸用語，台灣標準用法是「列印」。「列印」源自早期點陣印表機「逐列印刷」的概念，是 print 的正式翻譯。「打印」在台灣幾乎不使用，使用此詞會立刻被識別為大陸用語。無論是動詞或名詞用法，台灣都使用「列印」。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "print"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "列印"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "打印"
+      }
+    ],
+    "taiwan_alternatives": [
+      "列印",
+      "印出"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10042",
+    "term": "用戶",
+    "level": "error",
+    "message": "「用戶」是大陸用語，台灣標準用法是「使用者」。user 的翻譯在台灣一直是「使用者」，這是正式文件和介面的標準用語。「用戶」在台灣傳統上指「用電戶」等特定情境，在電腦領域使用會被視為大陸用語。此詞正在侵蝕台灣用語。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "user"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "使用者"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "用戶"
+      }
+    ],
+    "taiwan_alternatives": [
+      "使用者",
+      "用戶"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "10043",
+    "term": "賬號",
+    "level": "error",
+    "message": "「賬號」是大陸簡體用字，台灣使用繁體字「帳號」。這不僅是簡繁轉換的問題，「賬」字在台灣標準用字中並不使用，正確寫法是「帳」。「帳號」是 account 的標準翻譯，使用「賬號」會被視為未經正確轉換的大陸用語。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "account"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "帳號"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "賬號"
+      }
+    ],
+    "taiwan_alternatives": [
+      "帳號",
+      "帳戶"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "20000",
+    "term": "日誌",
+    "level": "warning",
+    "message": "台灣在技術領域更常使用「記錄檔」或「日誌檔」來對應 log。雖然「日誌」也能理解，但「記錄檔」、「日誌檔」或直接使用英文 log 更符合台灣的技術用語習慣。在系統管理和程式開發中，「記錄檔」是更普遍的說法。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "log"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "記錄檔"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "日志"
+      }
+    ],
+    "taiwan_alternatives": [
+      "記錄檔",
+      "日誌檔",
+      "log"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "20001",
+    "term": "實現",
+    "level": "warning",
+    "message": "台灣在程式設計中更常使用「實作」來對應 implementation。雖然「實現」也能理解，但「實作」更精確地表達「實際製作、實際撰寫程式碼」的意思。在技術文件和開發討論中，「實作介面」、「實作功能」是台灣的標準用語。",
+    "category": "programming",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "implementation"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "實作"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "实现"
+      }
+    ],
+    "taiwan_alternatives": [
+      "實作",
+      "實現"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "20002",
+    "term": "配置",
+    "level": "warning",
+    "message": "台灣在技術領域更常使用「設定」或「組態」來對應 configuration。雖然「配置」也能理解，但「設定」在台灣的軟體介面和技術文件中更為普遍。系統設定、網路設定等都使用「設定」一詞，「組態」則用於較技術性的情境。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "configuration"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "設定"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "配置"
+      }
+    ],
+    "taiwan_alternatives": [
+      "設定",
+      "組態",
+      "configuration"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "20003",
+    "term": "打開",
+    "level": "warning",
+    "message": "在軟體介面中，open 在台灣較常翻譯為「開啟」而非「打開」。雖然「打開」在口語中可以理解，但「開啟檔案」、「開啟應用程式」是台灣軟體介面的標準用語。「打開」較為口語化，正式文件應使用「開啟」。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "open"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "開啟"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "打开"
+      }
+    ],
+    "taiwan_alternatives": [
+      "開啟",
+      "打開"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "20004",
+    "term": "文檔",
+    "level": "warning",
+    "message": "在技術領域，documentation 在台灣較常翻譯為「文件」或「說明文件」。雖然「文檔」也能理解，但「技術文件」、「API 文件」、「說明文件」是台灣更普遍的說法。「文檔」較具大陸用語特徵，台灣應優先使用「文件」。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "documentation"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "文件"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "文档"
+      }
+    ],
+    "taiwan_alternatives": [
+      "文件",
+      "說明文件",
+      "技術文件"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "20005",
+    "term": "菜單",
+    "level": "warning",
+    "message": "在軟體介面中，menu 在台灣更常翻譯為「選單」而非「菜單」。「菜單」在台灣通常指餐廳的菜單，用於軟體介面會感覺不夠正式。台灣的軟體都使用「選單」，如「檔案選單」、「編輯選單」，這是標準的介面用語。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "menu"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "選單"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "菜单"
+      }
+    ],
+    "taiwan_alternatives": [
+      "選單",
+      "功能表"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "20006",
+    "term": "函數",
+    "level": "warning",
+    "message": "台灣程式設計領域普遍使用「函式」而非「函數」。雖然「函數」在數學領域兩岸通用，但在程式設計中台灣開發者習慣使用「函式」來對應 function 這個概念，以區分數學函數與程式函式。",
+    "category": "programming",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "function"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "函式"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "函數"
+      }
+    ],
+    "taiwan_alternatives": [
+      "函式"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "20007",
+    "term": "類",
+    "level": "warning",
+    "message": "台灣程式設計中較常使用完整的「類別」而非簡稱「類」。雖然「類」在口語中偶爾出現，但正式文件和教學材料都使用「類別」來對應 class。使用完整詞彙「類別」更符合台灣的用語習慣。",
+    "category": "programming",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "class"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "類別"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "類"
+      }
+    ],
+    "taiwan_alternatives": [
+      "類別"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "20008",
+    "term": "多態",
+    "level": "warning",
+    "message": "台灣程式設計中較常使用「多型」而非「多態」來對應 polymorphism。雖然「多態」偶爾也會出現，但「多型」更符合台灣的翻譯習慣和教學用語。在物件導向程式設計中，「多型」是台灣的標準術語。",
+    "category": "programming",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "polymorphism"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "多型"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "多態"
+      }
+    ],
+    "taiwan_alternatives": [
+      "多型",
+      "polymorphism"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "20009",
+    "term": "異常",
+    "level": "warning",
+    "message": "台灣程式設計中更常使用「例外」而非「異常」來對應 exception。雖然「異常」在某些情境也會使用，但「例外」是台灣教育和業界的主流用語，特別是在例外處理（exception handling）的語境中。",
+    "category": "programming",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "exception"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "例外"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "異常"
+      }
+    ],
+    "taiwan_alternatives": [
+      "例外",
+      "異常狀況"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "20010",
+    "term": "運行",
+    "level": "warning",
+    "message": "台灣程式設計中更常使用「執行」而非「運行」來對應 run 或 execute。雖然「運行」偶爾也會出現，但「執行」更符合台灣的用語習慣。特別是在「執行程式」、「執行時期」等用語中，台灣慣用「執行」。",
+    "category": "programming",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "run"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "執行"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "運行"
+      }
+    ],
+    "taiwan_alternatives": [
+      "執行"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "20011",
+    "term": "鏈接",
+    "level": "warning",
+    "message": "在程式設計中，台灣較常使用「連結」或「鏈結」而非「鏈接」來對應 link。特別是在編譯鏈結（linking）和超連結（hyperlink）的語境中，台灣習慣使用「連結」。「鏈接」是較為大陸化的用語。",
+    "category": "programming",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "link"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "連結"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "鏈接"
+      }
+    ],
+    "taiwan_alternatives": [
+      "連結",
+      "鏈結"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "20012",
+    "term": "庫",
+    "level": "warning",
+    "message": "台灣程式設計中通常使用完整的「函式庫」、「程式庫」或「資料庫」而非簡稱「庫」來對應 library。雖然口語中偶爾會簡稱，但正式文件和技術討論中，台灣習慣使用完整詞彙。單獨使用「庫」較具大陸用語特徵。",
+    "category": "programming",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "library"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "函式庫"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "庫"
+      }
+    ],
+    "taiwan_alternatives": [
+      "函式庫",
+      "程式庫",
+      "library"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "20013",
+    "term": "包",
+    "level": "warning",
+    "message": "台灣程式設計中更常使用「套件」而非「包」來對應 package。雖然「包」在某些語境（如 Python 的 package）中也會使用，但「套件」是台灣更普遍和正式的說法，特別是在軟體套件、安裝套件等用語中。",
+    "category": "programming",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "package"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "套件"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "包"
+      }
+    ],
+    "taiwan_alternatives": [
+      "套件",
+      "package"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "20014",
+    "term": "導入",
+    "level": "warning",
+    "message": "台灣程式設計中更常使用「匯入」而非「導入」來對應 import。特別是在「匯入模組」、「匯入套件」等語境中，台灣習慣使用「匯入」。「導入」雖然也能理解，但較具大陸用語特徵，「匯入」更符合台灣習慣。",
+    "category": "programming",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "import"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "匯入"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "導入"
+      }
+    ],
+    "taiwan_alternatives": [
+      "匯入",
+      "import"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "20015",
+    "term": "顯卡",
+    "level": "warning",
+    "message": "中國大陸的簡化說法，台灣標準用語是「顯示卡」。雖然台灣口語中偶爾會使用「顯卡」作為簡稱，但在正式文件、技術規格、產品說明中應使用完整的「顯示卡」。顯示卡是 graphics card 或 video card 的正式譯名，更能準確表達其功能。",
+    "category": "hardware",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "graphics card / video card"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "顯示卡"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "顯卡"
+      }
+    ],
+    "taiwan_alternatives": [
+      "顯示卡",
+      "顯卡"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "20016",
+    "term": "驅動",
+    "level": "warning",
+    "message": "「驅動」是 driver 的簡化說法，台灣更正式的用語是「驅動程式」。雖然口語中常簡稱「驅動」，但在正式的技術文件、軟體安裝說明、系統需求中應使用完整的「驅動程式」。這個詞本身不算錯誤，但完整說法更符合台灣的技術文件慣例，也更清楚表達這是一種軟體程式。",
+    "category": "hardware",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "driver"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "驅動程式"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "驅動"
+      }
+    ],
+    "taiwan_alternatives": [
+      "驅動程式",
+      "driver"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "20017",
+    "term": "刷新率",
+    "level": "warning",
+    "message": "「刷新率」在台灣較常說「更新率」或「畫面更新率」。refresh rate 指螢幕每秒更新畫面的次數，台灣的顯示器規格通常標示為「更新率」（如 144Hz 更新率）。雖然「刷新率」也能理解，但「更新率」是台灣硬體產業更常用的術語，在產品規格與技術文件中應優先使用。",
+    "category": "hardware",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "refresh rate"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "更新率"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "刷新率"
+      }
+    ],
+    "taiwan_alternatives": [
+      "更新率",
+      "畫面更新率",
+      "螢幕更新率"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "20018",
+    "term": "閃存",
+    "level": "warning",
+    "message": "「閃存」是 flash memory 的簡化說法，台灣更正式的用語是「快閃記憶體」。雖然「閃存」在口語中可能被理解，但「快閃記憶體」是台灣半導體產業與技術文件的標準術語。在產品規格、技術說明、學術論文中應使用完整的「快閃記憶體」，這也更能準確表達其技術特性。",
+    "category": "hardware",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "flash memory"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "快閃記憶體"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "閃存"
+      }
+    ],
+    "taiwan_alternatives": [
+      "快閃記憶體",
+      "Flash 記憶體"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "20019",
+    "term": "估計",
+    "level": "warning",
+    "message": "中國大陸慣用詞。在台灣的口語和書面語中，更常使用「大概」、「可能」、「預估」等詞彙。雖然「估計」在台灣也能理解，但在日常對話中較少使用，特別是在非正式場合。建議根據語境選擇更自然的台灣用語。",
+    "category": "general",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "estimate"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "大概/預估"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "估计"
+      }
+    ],
+    "taiwan_alternatives": [
+      "大概",
+      "預估",
+      "可能"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "20020",
+    "term": "離線",
+    "level": "warning",
+    "message": "台灣也使用「離線」，但在某些情境下會說「下線」或「斷線」。對應 offline，「離線」在台灣是可接受的用法，但根據語境，「下線」（如「我要下線了」）或「離線模式」等說法更自然。相較於「在線」，「離線」在台灣的接受度較高。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "offline"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "離線/下線"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "离线"
+      }
+    ],
+    "taiwan_alternatives": [
+      "離線",
+      "下線",
+      "斷線"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "20021",
+    "term": "重做",
+    "level": "warning",
+    "message": "台灣也使用「重做」，但在軟體介面中更常使用「取消復原」或「重複」（對應 redo）。「重做」在台灣可以理解，但在編輯軟體中，為了與「復原」功能對應，「取消復原」更為精確。部分軟體也使用「重複」來表達這個功能。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "redo"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "取消復原/重做"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "重做"
+      }
+    ],
+    "taiwan_alternatives": [
+      "取消復原",
+      "重做",
+      "重複"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "20022",
+    "term": "退出",
+    "level": "warning",
+    "message": "中國大陸常用詞。台灣在軟體介面中更常使用「結束」、「離開」或「關閉」（對應 exit/quit）。「退出」在台灣也能理解，但「結束程式」、「離開應用程式」更為自然。在不同情境下，台灣會選用不同的詞彙，較少單純使用「退出」。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "exit/quit"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "結束/離開"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "退出"
+      }
+    ],
+    "taiwan_alternatives": [
+      "結束",
+      "離開",
+      "關閉"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "20023",
+    "term": "文件",
+    "level": "warning",
+    "message": "在電腦用語中，「文件」與「檔案」有細微差異。大陸傾向用「文件」指 file，台灣則更常用「檔案」。「文件」在台灣通常指「文書、文獻」，而電腦中的 file 多說「檔案」。雖然「文件」也能理解，但「檔案」是台灣的慣用語。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "file"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "檔案"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "文件"
+      }
+    ],
+    "taiwan_alternatives": [
+      "檔案",
+      "文件檔"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "20024",
+    "term": "目錄",
+    "level": "warning",
+    "message": "在電腦用語中，「目錄」(directory) 是較技術性的用語，台灣一般使用者更常說「資料夾」(folder)。雖然技術文件中「目錄」仍在使用，但在 GUI 介面和日常對話中，「資料夾」更為普遍。大陸則較常使用「目錄」或「文件夾」。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "directory / folder"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "資料夾 / 目錄"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "目錄 / 文件夾"
+      }
+    ],
+    "taiwan_alternatives": [
+      "資料夾",
+      "目錄",
+      "folder"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "20025",
+    "term": "恢復",
+    "level": "warning",
+    "message": "在電腦用語中，「恢復」與「還原」有使用習慣差異。restore 在台灣更常翻譯為「還原」，如「系統還原」、「還原備份」。「恢復」也能理解，但「還原」在台灣的 GUI 介面和技術文件中更為常見。大陸則較常使用「恢復」。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "restore / recovery"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "還原 / 恢復"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "恢復"
+      }
+    ],
+    "taiwan_alternatives": [
+      "還原",
+      "復原",
+      "恢復"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "20026",
+    "term": "共享",
+    "level": "warning",
+    "message": "在電腦用語中，share 在台灣更常翻譯為「共用」或「分享」。「共用」多用於資源共享（如「共用資料夾」），「分享」則用於社交媒體情境。「共享」雖然也能理解，但在台灣的使用頻率較低，「共用」是更道地的台灣用語。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "share / sharing"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "共用 / 分享"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "共享"
+      }
+    ],
+    "taiwan_alternatives": [
+      "共用",
+      "分享",
+      "共享"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "30000",
+    "term": "緩存",
+    "level": "info",
+    "message": "cache 在台灣有「快取」和「緩存」兩種翻譯，但更多技術人員直接使用英文 cache。「快取」是較正式的中文翻譯，強調「快速存取」的概念。「緩存」雖然也被使用，但在台灣的技術社群中，直接使用 cache 更為常見。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "cache"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "快取"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "缓存"
+      }
+    ],
+    "taiwan_alternatives": [
+      "快取",
+      "cache",
+      "緩存"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "30001",
+    "term": "啟動",
+    "level": "info",
+    "message": "「啟動」在台灣也廣泛使用，對應 start/launch。無論是「啟動程式」、「啟動服務」，台灣和大陸都使用「啟動」一詞。這是標準的中文技術用語，沒有明顯的地域差異。部分情境也會使用「開啟」或「執行」。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "start / launch"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "啟動"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "启动"
+      }
+    ],
+    "taiwan_alternatives": [
+      "啟動",
+      "開啟",
+      "執行"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "30002",
+    "term": "繼承",
+    "level": "info",
+    "message": "「繼承」在兩岸程式設計術語中都通用，對應 inheritance 概念。這是物件導向程式設計的基本概念之一，台灣和中國都使用相同的翻譯。部分開發者也會直接使用英文 inheritance。",
+    "category": "programming",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "inheritance"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "繼承"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "繼承"
+      }
+    ],
+    "taiwan_alternatives": [
+      "繼承",
+      "inheritance"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "30003",
+    "term": "封裝",
+    "level": "info",
+    "message": "「封裝」在兩岸程式設計術語中都通用，對應 encapsulation 概念。這是物件導向程式設計的核心原則之一，台灣和中國使用相同翻譯。在技術文件中也常見直接使用英文 encapsulation。",
+    "category": "programming",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "encapsulation"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "封裝"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "封裝"
+      }
+    ],
+    "taiwan_alternatives": [
+      "封裝",
+      "encapsulation"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "30004",
+    "term": "編譯",
+    "level": "info",
+    "message": "「編譯」在兩岸程式設計術語中都通用，對應 compile 或 compilation。這是程式開發流程中的標準術語，台灣和中國使用相同翻譯。編譯器（compiler）的翻譯也是兩岸共通的。",
+    "category": "programming",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "compile"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "編譯"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "編譯"
+      }
+    ],
+    "taiwan_alternatives": [
+      "編譯"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "30005",
+    "term": "框架",
+    "level": "info",
+    "message": "「框架」在兩岸程式設計術語中都通用，對應 framework。這是軟體開發中的標準術語，台灣和中國使用相同翻譯。許多台灣開發者也會直接使用英文 framework，兩者皆可接受。",
+    "category": "programming",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "framework"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "框架"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "框架"
+      }
+    ],
+    "taiwan_alternatives": [
+      "框架",
+      "framework"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "30006",
+    "term": "命名空間",
+    "level": "info",
+    "message": "「命名空間」在兩岸程式設計術語中都通用，對應 namespace。這是程式設計中用於組織和區分識別符的機制，台灣和中國使用相同翻譯。許多技術文件也會直接使用英文 namespace。",
+    "category": "programming",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "namespace"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "命名空間"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "命名空間"
+      }
+    ],
+    "taiwan_alternatives": [
+      "命名空間",
+      "namespace"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "30007",
+    "term": "處理器",
+    "level": "info",
+    "message": "「處理器」是 processor 的標準譯名，台灣與大陸都使用。不過在台灣的技術社群中，直接使用英文 CPU（Central Processing Unit）更為常見，或者說「中央處理器」。這個詞本身沒有問題，但在不同情境下可考慮是保留英文還是使用中文，視目標讀者的技術背景而定。",
+    "category": "hardware",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "processor / CPU"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "處理器"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "處理器"
+      }
+    ],
+    "taiwan_alternatives": [
+      "處理器",
+      "CPU",
+      "中央處理器"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "30008",
+    "term": "電源",
+    "level": "info",
+    "message": "「電源」是 power supply 的標準譯名，台灣與大陸都使用，沒有差異。在電腦硬體中指「電源供應器」（PSU, Power Supply Unit），在其他情境可能指電源線、電源插座等。這個詞本身沒有問題，是兩岸共通的標準用語，可以安心使用。",
+    "category": "hardware",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "power supply"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "電源"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "電源"
+      }
+    ],
+    "taiwan_alternatives": [
+      "電源",
+      "電源供應器",
+      "PSU"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "30009",
+    "term": "散熱器",
+    "level": "info",
+    "message": "「散熱器」是 heatsink 或 cooler 的標準譯名，台灣與大陸都使用，沒有差異。在電腦硬體中指用來散發熱量的金屬裝置，通常搭配風扇使用。這個詞本身沒有問題，是兩岸共通的標準用語，在台灣的硬體產品與技術文件中普遍使用。",
+    "category": "hardware",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "heatsink / cooler"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "散熱器"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "散熱器"
+      }
+    ],
+    "taiwan_alternatives": [
+      "散熱器",
+      "散熱片",
+      "CPU 散熱器"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "30010",
+    "term": "風扇",
+    "level": "info",
+    "message": "「風扇」是 fan 的標準譯名，台灣與大陸都使用，沒有差異。在電腦硬體中指用來加強散熱的旋轉扇葉裝置，如機殼風扇、CPU 風扇、顯示卡風扇等。這個詞本身沒有問題，是兩岸共通的標準用語，在台灣的硬體產品與技術文件中普遍使用。",
+    "category": "hardware",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "fan"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "風扇"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "風扇"
+      }
+    ],
+    "taiwan_alternatives": [
+      "風扇",
+      "散熱風扇",
+      "機殼風扇"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "30011",
+    "term": "下載",
+    "level": "info",
+    "message": "台灣也使用「下載」（對應 download），這是兩岸共通的用法。雖然字形相同，但要注意台灣使用繁體字「下載」而非簡體字「下载」。在技術文件中，台灣完全接受並廣泛使用「下載」這個詞彙，無需更改。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "download"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "下載"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "下载"
+      }
+    ],
+    "taiwan_alternatives": [
+      "下載"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "30012",
+    "term": "上傳",
+    "level": "info",
+    "message": "台灣也使用「上傳」（對應 upload），這是兩岸共通的用法。雖然字形相同，但要注意台灣使用繁體字「上傳」而非簡體字「上传」。在技術文件和日常使用中，台灣完全接受並廣泛使用「上傳」這個詞彙，無需更改。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "upload"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "上傳"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "上传"
+      }
+    ],
+    "taiwan_alternatives": [
+      "上傳"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "30013",
+    "term": "刪除",
+    "level": "info",
+    "message": "台灣也使用「刪除」（對應 delete），這是兩岸共通的用法。雖然字形相同，但要注意台灣使用繁體字「刪除」而非簡體字「删除」。在技術文件和軟體介面中，台灣完全接受並廣泛使用「刪除」這個詞彙，無需更改。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "delete"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "刪除"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "删除"
+      }
+    ],
+    "taiwan_alternatives": [
+      "刪除",
+      "移除"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "30014",
+    "term": "複製",
+    "level": "info",
+    "message": "台灣使用「複製」（對應 copy），這是正確的繁體字用法。要注意中國大陸使用簡體字「复制」。在軟體介面和技術文件中，台灣標準用法是「複製」。兩岸用詞概念相同，主要是簡繁體字形差異。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "copy"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "複製"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "复制"
+      }
+    ],
+    "taiwan_alternatives": [
+      "複製",
+      "拷貝"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "30015",
+    "term": "註冊",
+    "level": "info",
+    "message": "台灣使用「註冊」（對應 register/sign up），這是正確的繁體字用法。要注意中國大陸使用簡體字「注册」。在網站和應用程式中，台灣標準用法是「註冊會員」、「註冊帳號」。兩岸用詞概念相同，主要是簡繁體字形差異。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "register"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "註冊"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "注册"
+      }
+    ],
+    "taiwan_alternatives": [
+      "註冊",
+      "申請"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "30016",
+    "term": "鍵盤",
+    "level": "info",
+    "message": "「鍵盤」是兩岸通用的標準翻譯，源自 keyboard 的直譯。台灣與大陸在此詞的使用上完全一致，都是指電腦或打字機的按鍵輸入裝置。在台灣的技術文件中，「鍵盤」是標準用語，也有人直接使用英文 keyboard。",
+    "category": "hardware",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "keyboard"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "鍵盤"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "鍵盤"
+      }
+    ],
+    "taiwan_alternatives": [
+      "鍵盤",
+      "keyboard"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "30017",
+    "term": "掃描",
+    "level": "info",
+    "message": "「掃描」是兩岸通用的標準翻譯，源自 scan 的直譯。無論是指掃描器（scanner）的功能，或是病毒掃描、網路掃描等技術用語，兩岸都使用「掃描」一詞。這是標準的中文技術用語，沒有地域差異。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "scan"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "掃描"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "掃描"
+      }
+    ],
+    "taiwan_alternatives": [
+      "掃描"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "30018",
+    "term": "郵件",
+    "level": "info",
+    "message": "「郵件」是兩岸通用詞彙，可指傳統郵件或電子郵件（email）。在台灣，「郵件」、「信件」、「電子郵件」都常用，視情境而定。技術文件中常見「電子郵件」或直接用 email、mail。此詞沒有明顯的地域差異，屬於標準中文用語。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "mail / email"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "郵件 / 電子郵件"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "郵件"
+      }
+    ],
+    "taiwan_alternatives": [
+      "郵件",
+      "電子郵件",
+      "信件",
+      "email"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "30019",
+    "term": "路徑",
+    "level": "info",
+    "message": "「路徑」是兩岸通用的標準技術用語，源自 path 的直譯。無論是檔案路徑、網路路徑，兩岸都使用「路徑」一詞。這是標準的中文技術用語，在程式設計和系統管理中廣泛使用，沒有地域差異。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "path"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "路徑"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "路徑"
+      }
+    ],
+    "taiwan_alternatives": [
+      "路徑",
+      "path"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "30020",
+    "term": "權限",
+    "level": "info",
+    "message": "「權限」是兩岸通用的標準技術用語，源自 permission/privilege 的翻譯。無論是檔案權限、存取權限、使用者權限，兩岸都使用「權限」一詞。這是標準的中文技術用語，在系統管理和程式設計中普遍使用，沒有地域差異。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "permission / privilege"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "權限"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "權限"
+      }
+    ],
+    "taiwan_alternatives": [
+      "權限",
+      "存取權"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "30021",
+    "term": "密碼",
+    "level": "info",
+    "message": "「密碼」是兩岸通用的標準翻譯，源自 password 的直譯。無論是登入密碼、加密密碼，兩岸都使用「密碼」一詞。這是標準的中文用語，在資訊安全領域廣泛使用，沒有地域差異。台灣也常直接使用英文 password。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "password"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "密碼"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "密碼"
+      }
+    ],
+    "taiwan_alternatives": [
+      "密碼",
+      "password"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "30022",
+    "term": "驗證",
+    "level": "info",
+    "message": "「驗證」是兩岸通用的標準技術用語，源自 verification/authentication 的翻譯。無論是身份驗證、資料驗證，兩岸都使用「驗證」一詞。這是標準的中文技術用語，在資訊安全和軟體開發中普遍使用，沒有地域差異。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "verification / authentication"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "驗證"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "驗證"
+      }
+    ],
+    "taiwan_alternatives": [
+      "驗證",
+      "認證"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "30023",
+    "term": "加密",
+    "level": "info",
+    "message": "「加密」是兩岸通用的標準技術用語，源自 encryption 的直譯。無論是資料加密、通訊加密，兩岸都使用「加密」一詞。這是標準的中文技術用語，在資訊安全領域廣泛使用，沒有地域差異。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "encryption / encrypt"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "加密"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "加密"
+      }
+    ],
+    "taiwan_alternatives": [
+      "加密"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "30024",
+    "term": "解密",
+    "level": "info",
+    "message": "「解密」是兩岸通用的標準技術用語，源自 decryption 的直譯。無論是資料解密、密碼解密，兩岸都使用「解密」一詞。這是標準的中文技術用語，在資訊安全領域廣泛使用，沒有地域差異。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "decryption / decrypt"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "解密"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "解密"
+      }
+    ],
+    "taiwan_alternatives": [
+      "解密"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "30025",
+    "term": "備份",
+    "level": "info",
+    "message": "「備份」是兩岸通用的標準技術用語，源自 backup 的直譯。無論是資料備份、系統備份，兩岸都使用「備份」一詞。這是標準的中文技術用語，在系統管理和資料保護中普遍使用，沒有地域差異。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "backup"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "備份"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "備份"
+      }
+    ],
+    "taiwan_alternatives": [
+      "備份",
+      "備存"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "30026",
+    "term": "同步",
+    "level": "info",
+    "message": "「同步」是兩岸通用的標準技術用語，源自 synchronization 的直譯。無論是資料同步、時間同步，兩岸都使用「同步」一詞。這是標準的中文技術用語，在雲端服務和分散式系統中廣泛使用，沒有地域差異。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "synchronization / sync"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "同步"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "同步"
+      }
+    ],
+    "taiwan_alternatives": [
+      "同步",
+      "同步化"
+    ],
+    "reviewed": true
+  },
+  {
+    "rule_id": "40000",
+    "term": "註銷",
+    "level": "depends",
+    "message": "需要根據上下文判斷。台灣在 logout 的情境下使用「登出」，但在取消註冊、撤銷帳號時也使用「註銷」。中國大陸則較常用「注销」表示 logout。因此要區分：「登出系統」（logout）vs「註銷帳號」（cancel account），兩者意義不同。",
+    "category": "tech",
+    "concepts": [
+      {
+        "lang": "en",
+        "value": "logout/cancel"
+      },
+      {
+        "lang": "zh-TW",
+        "value": "登出/註銷"
+      },
+      {
+        "lang": "zh-CN",
+        "value": "注销"
+      }
+    ],
+    "taiwan_alternatives": [
+      "登出",
+      "註銷帳號"
+    ],
+    "reviewed": true
+  }
+]
