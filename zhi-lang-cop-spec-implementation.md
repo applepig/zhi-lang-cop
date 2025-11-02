@@ -621,12 +621,14 @@ buildDatabase().catch(console.error);
 **狀態**: 已完成 (2025-11-01) | **Branch**: `v0.2` | **詳細資訊**: [PROJECT_STATUS.md](./PROJECT_STATUS.md#phase-1-核心邏輯-v020-)
 
 ### 完成成果
-- ✅ **架構決策**: 捨棄 textlint,改用自建 Database + Matcher 類別
+- ✅ **實作方式**: 直接實作 Database + Matcher 類別 (未使用 textlint 框架)
 - ✅ `Database` 類別 - 查詢詞庫與規則
 - ✅ `Matcher` 類別 - 文字匹配與位置追蹤
 - ✅ TypeScript 型別定義完整
 - ✅ CLI 工具 (check/lookup/stats 指令)
 - ✅ 測試覆蓋: 單元測試 15 個 + E2E 測試 9 個 (使用 Vitest)
+
+> **注**: 原始規劃要整合 textlint 框架,但實際實作採用自建邏輯,更輕量且易於整合到前端
 
 ### 最終檔案位置
 核心邏輯已整合至 `src/lib/`:
@@ -2312,8 +2314,8 @@ npm run preview
 **Q: 為什麼最後選擇純前端而不是 Fastify API？**
 A: 純前端可部署到免費 CDN,零託管成本,離線可用,且所有邏輯在瀏覽器執行無 API 延遲。對於詞庫檢查這類純計算任務,不需要後端。
 
-**Q: 為什麼不使用 textlint？**
-A: textlint 增加了複雜度且不適合純前端使用。自建的 Database + Matcher 更輕量且完全符合需求。
+**Q: 為什麼沒有使用 textlint？**
+A: Phase 1 實作時直接採用自建的 Database + Matcher,更輕量且易於整合。textlint 雖然是成熟框架,但對於我們的需求來說可能過於複雜,且不易在瀏覽器環境中使用。
 
 **Q: 資料庫會自動更新嗎？**
 A: 當前是靜態打包進 bundle。未來可考慮 GitHub Actions 自動更新 + 重新建置部署。
