@@ -2,7 +2,39 @@
 
 本文件說明如何將支語警察發佈到 npmjs.org。
 
-## 前置準備
+## 🚀 自動發佈（推薦）
+
+此專案已設定 GitHub Actions，當推送到 `main` 分支時會自動發佈到 npm。
+
+### 快速開始
+
+1. **設定 NPM Token**（只需做一次）
+   - 前往 [npmjs.com](https://www.npmjs.com/) → Access Tokens → Generate New Token
+   - 選擇 **Automation** 類型
+   - 複製 token
+   - 在 GitHub repo → Settings → Secrets → Actions → New repository secret
+   - Name: `NPM_TOKEN`，Value: 貼上你的 token
+
+2. **更新版本並推送**
+   ```bash
+   # 更新版本號
+   npm version patch  # 或 minor / major
+
+   # 推送到 main（包含 tags）
+   git push origin main --follow-tags
+   ```
+
+3. **完成！** GitHub Actions 會自動建置並發佈到 npm
+
+詳細說明請參考 [.github/workflows/README.md](.github/workflows/README.md)
+
+---
+
+## 📝 手動發佈
+
+如果需要手動發佈（例如首次發佈或緊急修正），可以按照以下步驟：
+
+### 前置準備
 
 ### 1. 註冊 NPM 帳號
 

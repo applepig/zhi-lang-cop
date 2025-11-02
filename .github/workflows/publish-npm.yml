@@ -1,0 +1,70 @@
+name: Publish to NPM
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'packages/**'
+      - 'data/**'
+      - 'package.json'
+      - 'package-lock.json'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build MCP server
+        run: npm run build:mcp
+
+      - name: Check if version already published
+        id: check_version
+        run: |
+          PACKAGE_VERSION=$(node -p "require('./package.json').version")
+          PACKAGE_NAME=$(node -p "require('./package.json').name")
+
+          echo "Current version: $PACKAGE_VERSION"
+
+          # Check if this version exists on npm
+          if npm view $PACKAGE_NAME@$PACKAGE_VERSION version 2>/dev/null; then
+            echo "Version $PACKAGE_VERSION already published"
+            echo "skip=true" >> $GITHUB_OUTPUT
+          else
+            echo "Version $PACKAGE_VERSION not published yet"
+            echo "skip=false" >> $GITHUB_OUTPUT
+          fi
+
+          echo "version=$PACKAGE_VERSION" >> $GITHUB_OUTPUT
+
+      - name: Publish to NPM
+        if: steps.check_version.outputs.skip == 'false'
+        run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Create Git tag
+        if: steps.check_version.outputs.skip == 'false'
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git tag -a "v${{ steps.check_version.outputs.version }}" -m "Release v${{ steps.check_version.outputs.version }}"
+          git push origin "v${{ steps.check_version.outputs.version }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Skip message
+        if: steps.check_version.outputs.skip == 'true'
+        run: echo "Skipping publish - version ${{ steps.check_version.outputs.version }} already exists on npm"
