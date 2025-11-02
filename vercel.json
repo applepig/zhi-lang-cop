@@ -1,29 +1,10 @@
 {
-  "version": 2,
   "buildCommand": "pnpm install && pnpm -r build && cd packages/web && pnpm build:client",
   "outputDirectory": "packages/web/dist",
   "installCommand": "pnpm install",
-  "framework": null,
-  "routes": [
-    {
-      "src": "/api/lint",
-      "dest": "/api/lint.ts"
-    },
-    {
-      "src": "/api/lookup",
-      "dest": "/api/lookup.ts"
-    },
-    {
-      "src": "/api/rules",
-      "dest": "/api/rules.ts"
-    },
-    {
-      "src": "/api/stats",
-      "dest": "/api/stats.ts"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/packages/web/dist/$1"
-    }
-  ]
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/$1" }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
 }

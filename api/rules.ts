@@ -1,9 +1,15 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { Database } from '../packages/core/dist/index.js';
-import type { Level } from '../packages/core/dist/types.js';
+import { readFileSync } from 'fs';
+import { join } from 'path';
+
+type Level = 'hazard' | 'error' | 'warning' | 'info' | 'depends';
+
+function getDatabase() {
+  const dbPath = join(process.cwd(), 'data/terms-db.json');
+  return JSON.parse(readFileSync(dbPath, 'utf-8'));
+}
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
-  // Enable CORS
   res.setHeader('Access-Control-Allow-Credentials', 'true');
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS');
@@ -29,8 +35,11 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       offset?: string;
     };
 
-    const db = new Database();
-    const allRules = db.getAllRules();
+    const db = getDatabase();
+    const allRules = Object.keys(db.rules).map(ruleId => ({
+      ruleId,
+      rule: db.rules[ruleId]
+    }));
 
     let filtered = allRules;
 

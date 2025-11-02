@@ -1,8 +1,13 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { Database } from '../packages/core/dist/index.js';
+import { readFileSync } from 'fs';
+import { join } from 'path';
+
+function getDatabase() {
+  const dbPath = join(process.cwd(), 'data/terms-db.json');
+  return JSON.parse(readFileSync(dbPath, 'utf-8'));
+}
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
-  // Enable CORS
   res.setHeader('Access-Control-Allow-Credentials', 'true');
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS');
@@ -27,24 +32,24 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       return res.status(400).json({ error: 'Must provide either term or rule parameter' });
     }
 
-    const db = new Database();
+    const db = getDatabase();
 
     if (term) {
-      const results = db.getRulesByTerm(term as string);
-      const formattedResults = results.map(r => ({
-        ruleId: r.ruleId,
-        term: term as string,
-        level: r.rule.level,
-        message: r.rule.message,
-        category: r.rule.category,
-        taiwanAlternatives: r.taiwanAlternatives,
-        concepts: r.rule.concepts
+      const mappings = db.termToRulesMap[term] || [];
+      const results = mappings.map((mapping: any) => ({
+        ruleId: mapping.ruleId,
+        term,
+        level: db.rules[mapping.ruleId].level,
+        message: db.rules[mapping.ruleId].message,
+        category: db.rules[mapping.ruleId].category,
+        taiwanAlternatives: mapping.taiwanAlternatives,
+        concepts: db.rules[mapping.ruleId].concepts
       }));
-      return res.status(200).json({ term, results: formattedResults });
+      return res.status(200).json({ term, results });
     }
 
     if (rule) {
-      const result = db.getRule(rule as string);
+      const result = db.rules[rule];
       if (!result) {
         return res.status(404).json({ error: 'Rule not found' });
       }
