@@ -45,10 +45,10 @@ import { ref, onMounted } from 'vue';
 import LintInput from './components/LintInput.vue';
 import ResultsDisplay from './components/ResultsDisplay.vue';
 import StatsCard from './components/StatsCard.vue';
-import { Database } from './lib/database';
-import { Matcher } from './lib/matcher';
-import type { Level } from './lib/types';
-import termsDb from '../data/terms-db.json';
+import { Database } from '../../core/src/lib/database';
+import { Matcher } from '../../core/src/lib/matcher';
+import type { Level } from '../../core/src/lib/types';
+import termsDb from '../../../data/terms-db.json';
 
 interface LintResult {
   issues: any[];
