@@ -1,31 +1,67 @@
 {
-  "name": "zhi-lang-cop-web",
+  "name": "zhi-lang-cop",
   "version": "0.3.0",
-  "description": "Web API and Playground for zhi-lang-cop",
+  "description": "支語警察 - 檢查文字中的中國大陸用語，提供台灣用語建議。支援 Web 介面與 MCP Server（供 Claude Desktop 等 AI 助手使用）",
   "type": "module",
+  "bin": {
+    "zhi-lang-cop": "./packages/mcp/dist/index.js"
+  },
+  "main": "./packages/mcp/dist/index.js",
+  "files": [
+    "packages/mcp/dist",
+    "packages/core/src/lib",
+    "data/terms-db.json",
+    "packages/mcp/README.md"
+  ],
+  "keywords": [
+    "chinese",
+    "taiwan",
+    "mainland-china",
+    "terminology",
+    "lint",
+    "language",
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "ai-tools"
+  ],
+  "author": "applepig",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/applepig/zhi-lang-cop.git"
+  },
+  "homepage": "https://github.com/applepig/zhi-lang-cop#readme",
+  "bugs": {
+    "url": "https://github.com/applepig/zhi-lang-cop/issues"
+  },
   "scripts": {
     "dev:web": "vite --config packages/web/vite.config.ts",
     "build:web": "vite build --config packages/web/vite.config.ts",
     "preview:web": "vite preview --config packages/web/vite.config.ts",
     "dev:mcp": "tsx watch packages/mcp/src/index.ts",
     "build:mcp": "tsc -p packages/mcp/tsconfig.json",
-    "start:mcp": "node packages/mcp/dist/index.js"
+    "start:mcp": "node packages/mcp/dist/index.js",
+    "prepare": "npm run build:mcp"
   },
   "dependencies": {
-    "@mdi/font": "^7.4.0",
-    "@vitejs/plugin-vue": "^5.0.0",
     "fastmcp": "^3.22.0",
-    "vite": "^5.0.0",
-    "vite-plugin-vuetify": "^2.0.0",
-    "vue": "^3.4.0",
-    "vuetify": "^3.5.0",
     "zod": "^3.25.76"
   },
   "devDependencies": {
+    "@mdi/font": "^7.4.0",
     "@playwright/test": "^1.40.0",
     "@types/node": "^24.9.2",
+    "@vitejs/plugin-vue": "^5.0.0",
     "concurrently": "^8.2.0",
     "tsx": "^4.20.6",
-    "typescript": "^5.3.0"
+    "typescript": "^5.3.0",
+    "vite": "^5.0.0",
+    "vite-plugin-vuetify": "^2.0.0",
+    "vue": "^3.4.0",
+    "vuetify": "^3.5.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
