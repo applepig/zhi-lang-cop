@@ -1,12 +1,6 @@
 [build]
-  base = "packages/web"
   command = "npm install && npm run build:client"
   publish = "dist"
-
-[[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
-  status = 200
 
 [[redirects]]
   from = "/*"

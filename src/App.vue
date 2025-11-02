@@ -45,6 +45,10 @@ import { ref, onMounted } from 'vue';
 import LintInput from './components/LintInput.vue';
 import ResultsDisplay from './components/ResultsDisplay.vue';
 import StatsCard from './components/StatsCard.vue';
+import { Database } from './lib/database';
+import { Matcher } from './lib/matcher';
+import type { Level } from './lib/types';
+import termsDb from '../data/terms-db.json';
 
 interface LintResult {
   issues: any[];
@@ -63,6 +67,9 @@ interface Stats {
   byCategory: Record<string, number>;
 }
 
+// Initialize database with imported JSON
+const db = new Database(termsDb as any);
+
 const lintResults = ref<LintResult | undefined>();
 const stats = ref<Stats | undefined>();
 const snackbar = ref({
@@ -71,24 +78,23 @@ const snackbar = ref({
   color: 'info'
 });
 
-const handleCheck = async (text: string, minLevel: string) => {
+const handleCheck = (text: string, minLevel: string) => {
   try {
-    const response = await fetch('/api/lint', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({ text, minLevel })
-    });
+    const matcher = new Matcher(db, { minLevel: minLevel as Level });
+    const issues = matcher.findMatches(text);
 
-    if (!response.ok) {
-      throw new Error('Failed to check text');
-    }
+    lintResults.value = {
+      issues,
+      summary: {
+        total: issues.length,
+        byLevel: issues.reduce((acc: any, issue: any) => {
+          acc[issue.level] = (acc[issue.level] || 0) + 1;
+          return acc;
+        }, {})
+      }
+    };
 
-    const data = await response.json();
-    lintResults.value = data;
-
-    if (data.summary.total === 0) {
+    if (issues.length === 0) {
       snackbar.value = {
         show: true,
         message: '✓ 沒有發現問題',
@@ -105,19 +111,11 @@ const handleCheck = async (text: string, minLevel: string) => {
   }
 };
 
-const loadStats = async () => {
+onMounted(() => {
   try {
-    const response = await fetch('/api/stats');
-    if (!response.ok) {
-      throw new Error('Failed to load stats');
-    }
-    stats.value = await response.json();
+    stats.value = db.getStatistics();
   } catch (error) {
     console.error('Error loading stats:', error);
   }
-};
-
-onMounted(() => {
-  loadStats();
 });
 </script>

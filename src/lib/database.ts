@@ -1,19 +1,10 @@
-import { readFileSync } from 'fs';
-import { join, dirname } from 'path';
-import { fileURLToPath } from 'url';
-import type { TermsDatabase, RuleId, Rule } from './types.js';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+import type { TermsDatabase, RuleId, Rule } from './types';
 
 export class Database {
   private db: TermsDatabase;
 
-  constructor(dbPath?: string) {
-    // Default path: ../../../data/terms-db.json (from packages/core/dist/)
-    const path = dbPath || join(__dirname, '../../../data/terms-db.json');
-    const content = readFileSync(path, 'utf-8');
-    this.db = JSON.parse(content);
+  constructor(db: TermsDatabase) {
+    this.db = db;
   }
 
   getRule(ruleId: RuleId): Rule | undefined {
